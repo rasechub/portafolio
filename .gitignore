@@ -1,0 +1,14 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs y entornos
+*.log
+.env
+.env.local
+
+# Vercel
+.vercel

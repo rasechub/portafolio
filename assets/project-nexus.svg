@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgNexus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgNexus)"/>
+  <!-- UI Mockup Window -->
+  <rect x="50" y="45" width="500" height="270" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="75" cy="65" r="5" fill="#ef4444"/>
+  <circle cx="95" cy="65" r="5" fill="#f59e0b"/>
+  <circle cx="115" cy="65" r="5" fill="#10b981"/>
+  <!-- Sidebar -->
+  <rect x="50" y="85" width="100" height="230" fill="#0f172a" opacity="0.6"/>
+  <rect x="65" y="105" width="70" height="10" rx="4" fill="#475569"/>
+  <rect x="65" y="130" width="55" height="8" rx="4" fill="#334155"/>
+  <rect x="65" y="150" width="60" height="8" rx="4" fill="#334155"/>
+  <rect x="65" y="170" width="50" height="8" rx="4" fill="#334155"/>
+  <!-- Main Stats -->
+  <rect x="175" y="105" width="100" height="55" rx="8" fill="#334155" opacity="0.5"/>
+  <rect x="290" y="105" width="100" height="55" rx="8" fill="#334155" opacity="0.5"/>
+  <rect x="405" y="105" width="120" height="55" rx="8" fill="#334155" opacity="0.5"/>
+  <!-- Chart lines -->
+  <path d="M 180 260 Q 240 190, 310 220 T 440 180 T 520 210" fill="none" stroke="url(#cyanBlue)" stroke-width="4"/>
+  <circle cx="440" cy="180" r="5" fill="#38bdf8"/>
+  <text x="350" y="70" fill="#94a3b8" font-family="sans-serif" font-size="12" text-anchor="middle">Nexus Cloud Engine</text>
+</svg>

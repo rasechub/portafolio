@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgDev" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgDev)"/>
+  <!-- Terminal window -->
+  <rect x="70" y="40" width="460" height="280" rx="12" fill="#09090b" stroke="#3f3f46" stroke-width="2"/>
+  <circle cx="95" cy="62" r="5" fill="#ef4444"/>
+  <circle cx="115" cy="62" r="5" fill="#eab308"/>
+  <circle cx="135" cy="62" r="5" fill="#22c55e"/>
+  <text x="300" y="66" fill="#71717a" font-family="monospace" font-size="12" text-anchor="middle">bash - devflow-cli pipeline</text>
+  <!-- Pipeline step badges -->
+  <rect x="100" y="100" width="90" height="30" rx="6" fill="#27272a" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="145" y="120" fill="#22c55e" font-family="monospace" font-size="12" text-anchor="middle">✓ Build</text>
+  <line x1="190" y1="115" x2="230" y2="115" stroke="#3f3f46" stroke-width="2"/>
+  <rect x="230" y="100" width="90" height="30" rx="6" fill="#27272a" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="275" y="120" fill="#22c55e" font-family="monospace" font-size="12" text-anchor="middle">✓ Test</text>
+  <line x1="320" y1="115" x2="360" y2="115" stroke="#3f3f46" stroke-width="2"/>
+  <rect x="360" y="100" width="100" height="30" rx="6" fill="#27272a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="410" y="120" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">⚡ Deploy</text>
+  <!-- Code text -->
+  <text x="100" y="180" fill="#a1a1aa" font-family="monospace" font-size="13">$ devflow run --prod --k8s</text>
+  <text x="100" y="210" fill="#22c55e" font-family="monospace" font-size="13">[SUCCESS] Docker image pushed to registry</text>
+  <text x="100" y="240" fill="#22c55e" font-family="monospace" font-size="13">[SUCCESS] Kubernetes pods updated (Zero-downtime)</text>
+  <text x="100" y="270" fill="#38bdf8" font-family="monospace" font-size="13">[INFO] Release deployed at https://nexus.io (42ms)</text>
+</svg>

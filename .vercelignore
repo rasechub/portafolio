@@ -1,0 +1,14 @@
+# Archivos de configuración Docker ignorados en Vercel
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Archivos de entorno y logs
+.env*
+*.log
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

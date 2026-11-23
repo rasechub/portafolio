@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    container_name: portfolio_web
+    ports:
+      - "8080:80"
+    volumes:
+      # Montaje del directorio local en modo solo lectura para Hot-Reloading en desarrollo
+      - ./:/usr/share/nginx/html:ro
+    restart: unless-stopped
+    environment:
+      - NGINX_PORT=80
