@@ -1,16 +1,16 @@
 {
   "profile": {
     "name": "Cesar Aquino Anglas",
-    "role": "Desarrollador Full Stack & Cloud Enthusiast",
-    "shortBio": "Especialista en desarrollo web moderno, arquitectura de software escalable y prácticas DevOps. Apasionado por crear interfaces intuitivas, código limpio y pipelines de entrega continua eficientes.",
+    "role": "Desarrollador Web",
+    "shortBio": "Especialista en desarrollo web moderno. Apasionado por crear interfaces intuitivas, código limpio.",
     "avatar": "assets/avatar.svg",
-    "location": "Madrid, España / Remoto",
-    "email": "alejandro.dev@ejemplo.com",
+    "location": "Huancayo - Junin / Remoto",
+    "email": "rasecanglas01@gmail.com",
     "availableForWork": true,
     "social": [
       {
         "name": "GitHub",
-        "url": "https://github.com",
+        "url": "https://github.com/rasechub",
         "icon": "bi-github"
       },
       {
@@ -31,6 +31,22 @@
     ]
   },
   "projects": [
+    {
+      "id": "nexus-dashboard",
+      "title": "Nexus Cloud Dashboard",
+      "category": "web",
+      "description": "Panel de administración SaaS en tiempo real con monitoreo de métricas cloud, gestión de microservicios y analítica visual interactiva.",
+      "image": "assets/project-nexus.svg",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "github": "https://github.com",
+      "demo": "https://demo-nexus.vercel.app"
+    },
     {
       "id": "nexus-dashboard",
       "title": "Nexus Cloud Dashboard",
