@@ -32,17 +32,16 @@
   },
   "projects": [
     {
-      "id": "nexus-dashboard",
-      "title": "Nexus Cloud Dashboard",
+      "id": "petkardex",
+      "title": "Petkardex",
       "category": "web",
-      "description": "Panel de administración SaaS en tiempo real con monitoreo de métricas cloud, gestión de microservicios y analítica visual interactiva.",
-      "image": "assets/project-nexus.svg",
+      "description": "Sistema para la administracion de veterinaria, clinico, spa, etc",
+      "image": "assets/petkardex.png",
       "tags": [
-        "React",
-        "TypeScript",
-        "Node.js",
+        "Php",
+        "MySQL",
         "Docker",
-        "Tailwind CSS"
+        "Bootstrap 5"
       ],
       "github": "https://github.com",
       "demo": "https://demo-nexus.vercel.app"
