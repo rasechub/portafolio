@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Alejandro Gómez",
+    "name": "Cesar Aquino Anglas",
     "role": "Desarrollador Full Stack & Cloud Enthusiast",
     "shortBio": "Especialista en desarrollo web moderno, arquitectura de software escalable y prácticas DevOps. Apasionado por crear interfaces intuitivas, código limpio y pipelines de entrega continua eficientes.",
     "avatar": "assets/avatar.svg",
@@ -37,7 +37,13 @@
       "category": "web",
       "description": "Panel de administración SaaS en tiempo real con monitoreo de métricas cloud, gestión de microservicios y analítica visual interactiva.",
       "image": "assets/project-nexus.svg",
-      "tags": ["React", "TypeScript", "Node.js", "Docker", "Tailwind CSS"],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Tailwind CSS"
+      ],
       "github": "https://github.com",
       "demo": "https://demo-nexus.vercel.app"
     },
@@ -47,7 +53,12 @@
       "category": "movil",
       "description": "Aplicación móvil multiplataforma para tracking de rutinas de entrenamiento, metas biométricas y sincronización offline-first.",
       "image": "assets/project-fitpulse.svg",
-      "tags": ["React Native", "Expo", "SQLite", "Redux Toolkit"],
+      "tags": [
+        "React Native",
+        "Expo",
+        "SQLite",
+        "Redux Toolkit"
+      ],
       "github": "https://github.com",
       "demo": "https://expo.dev"
     },
@@ -57,7 +68,13 @@
       "category": "otros",
       "description": "Herramienta CLI y plantillas de automatización CI/CD con GitHub Actions y Kubernetes para despliegues zero-downtime.",
       "image": "assets/project-devflow.svg",
-      "tags": ["Go", "Docker", "Kubernetes", "GitHub Actions", "Nginx"],
+      "tags": [
+        "Go",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "Nginx"
+      ],
       "github": "https://github.com",
       "demo": "https://github.com"
     },
@@ -67,7 +84,13 @@
       "category": "web",
       "description": "Plataforma de comercio electrónico con arquitectura modular headless, pasarela de pagos Stripe y catálogo con búsqueda elástica.",
       "image": "assets/project-aurora.svg",
-      "tags": ["Next.js", "Express", "PostgreSQL", "Prisma", "Stripe"],
+      "tags": [
+        "Next.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "Stripe"
+      ],
       "github": "https://github.com",
       "demo": "https://aurora-store.vercel.app"
     }
