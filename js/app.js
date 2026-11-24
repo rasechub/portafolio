@@ -1,7 +1,6 @@
 /**
  * ============================================================================
- * PORTAFOLIO WEB PERSONAL - APLICACIÓN PRINCIPAL (ES6+)
- * Carga dinámica desde ./data/portfolio.json, modo oscuro/claro y filtros
+ * PORTAFOLIO WEB PERSONAL
  * ============================================================================
  */
 
@@ -18,8 +17,7 @@ let currentEmail = 'contacto@ejemplo.com';
 
 /**
  * ----------------------------------------------------------------------------
- * 1. GESTIÓN DEL TEMA (Modo Oscuro / Modo Claro)
- * Usa el atributo nativo de Bootstrap 5.3 data-bs-theme y localStorage
+ * GESTIÓN DEL TEMA (Modo Oscuro / Modo Claro)
  * ----------------------------------------------------------------------------
  */
 function initTheme() {
@@ -56,8 +54,7 @@ function initTheme() {
 
 /**
  * ----------------------------------------------------------------------------
- * 2. CARGA DINÁMICA DE DATOS VÍA FETCH
- * Lee ./data/portfolio.json y renderiza todas las secciones
+ * CARGA DINÁMICA DE DATOS VÍA FETCH
  * ----------------------------------------------------------------------------
  */
 async function loadPortfolioData() {
@@ -94,7 +91,7 @@ async function loadPortfolioData() {
 
 /**
  * ----------------------------------------------------------------------------
- * 3. RENDERIZADO DEL PERFIL & HERO
+ * RENDERIZADO DEL PERFIL & HERO
  * ----------------------------------------------------------------------------
  */
 function renderProfile(profile) {
@@ -173,7 +170,7 @@ function renderSocialLinks(containerId, socialList) {
 
 /**
  * ----------------------------------------------------------------------------
- * 4. RENDERIZADO Y FILTRO DE PROYECTOS
+ * RENDERIZADO Y FILTRO DE PROYECTOS
  * ----------------------------------------------------------------------------
  */
 function renderProjects(projects) {
@@ -275,7 +272,7 @@ function getCategoryLabel(category) {
 
 /**
  * ----------------------------------------------------------------------------
- * 5. RENDERIZADO DE HABILIDADES (TECH STACK)
+ * RENDERIZADO DE HABILIDADES 
  * ----------------------------------------------------------------------------
  */
 function renderSkills(skills) {
@@ -312,7 +309,7 @@ function renderSkills(skills) {
 
 /**
  * ----------------------------------------------------------------------------
- * 6. FUNCIONALIDAD COPIAR CORREO CON TOAST DE BOOTSTRAP
+ * FUNCIONALIDAD COPIAR CORREO CON TOAST DE BOOTSTRAP
  * ----------------------------------------------------------------------------
  */
 function setupCopyEmailButton() {
@@ -365,7 +362,7 @@ function setupCopyEmailButton() {
 
 /**
  * ----------------------------------------------------------------------------
- * 7. UTILIDADES
+ * UTILIDADES
  * ----------------------------------------------------------------------------
  */
 function initFooterYear() {
